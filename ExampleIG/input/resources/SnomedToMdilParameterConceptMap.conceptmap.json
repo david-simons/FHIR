@@ -1,0 +1,32 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "SnomedToMdilParameterConceptMap",
+  "url": "https://www.test.com/4.0/SnomedToMdilParameterConceptMap",
+  "status": "active",
+  "sourceCanonical": "http://snomed.info/sct?fhir_vs",
+  "targetCanonical": "https://www.test.com/4.0/MdilValueSet",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "https://www.test.com/4.0/MdilCodeSystem",
+      "element": [
+        {
+          "code": "713194001",
+          "target": [
+            {
+              "code": "0002-4BC4",
+              "equivalence": "unmatched",
+              "comment": "A"
+            },
+            {
+              "code": "0002-4B40",
+              "equivalence": "unmatched",
+              "comment": "B"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
